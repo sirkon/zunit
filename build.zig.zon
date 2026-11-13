@@ -1,0 +1,23 @@
+.{
+    .name = .zunit,
+    .version = "0.0.1",
+    .fingerprint = 0x88bfdc3cc8cf5e68,
+    .minimum_zig_version = "0.17.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+        "src",
+    },
+    .dependencies = .{
+        .dap = .{
+            .url = "https://github.com/sirkon/dap/archive/refs/tags/v0.0.9.tar.gz",
+            .hash = "dap-0.0.9-XZkAImIzBQC0uhjtpEwr4qouXGIavS9fUmHktU-feKVy",
+        },
+        .siggy = .{
+            .url = "https://github.com/sirkon/siggy/archive/refs/tags/v0.0.1.tar.gz",
+            .hash = "siggy-0.0.1-l6MsrVPmAQBaNqWUpgEuaYcIrGcNGOX14dqVlEYoHeK0",
+        },
+    },
+}
