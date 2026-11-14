@@ -1,6 +1,6 @@
 .{
     .name = .zunit,
-    .version = "0.0.1",
+    .version = "0.0.3",
     .fingerprint = 0x88bfdc3cc8cf5e68,
     .minimum_zig_version = "0.17.0",
     .paths = .{
